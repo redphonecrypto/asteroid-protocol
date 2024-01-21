@@ -74,6 +74,10 @@ The required parameters are:
 |amt|The amount to transfer|Must be less or equal to the sender's balance|
 |dst|The address to transfer to|Any address on the chain-id, the address is _not_ validated|
 
+**The first CFT-20 token**
+
+All indexers should register Asteroids (ROIDS) as the first CFT-20 token (Token #0). Any tokens deployed as tests before ROIDS should be reordered as appearing after ROIDS (Token #1) in the order in which they were inscribed.
+
 
 **Trading tokens**
 
