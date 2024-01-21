@@ -70,7 +70,7 @@ The required parameters are:
 
 |Param|Description|Restrictions|
 |-----|-----------|------------|
-|tic|The token ticker, must be unique across all tokens on the same chain-id|Must be 3-5 characters|
+|tic|The token ticker, must be unique across all tokens on the same chain-id|Must be 1-10 alphanumeric characters|
 |amt|The amount to transfer|Must be less or equal to the sender's balance|
 |dst|The address to transfer to|Any address on the chain-id, the address is _not_ validated|
 
